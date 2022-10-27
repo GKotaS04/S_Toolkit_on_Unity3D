@@ -15,8 +15,7 @@ public class S_Toolkit : EditorWindow
     private static void Init()
     {
         S_Toolkit window = (S_Toolkit)EditorWindow.GetWindow(typeof(S_Toolkit));
-        window.Show();
-        
+        window.Show();  
     }
 
     private void OnGUI()
@@ -55,18 +54,7 @@ public class S_Toolkit : EditorWindow
         }
     }
 
-    private class WindowOnSetupFile : EditorWindow
-    {
 
-        private void OnGUI()
-        {
-
-        }
-        private void Initialize()
-        {
-            WindowOnSetupFile window = (WindowOnSetupFile)EditorWindow.GetWindow(typeof(WindowOnSetupFile), true);
-        }
-}
    
     private class SetupTXTFile : EditorWindow
     {
