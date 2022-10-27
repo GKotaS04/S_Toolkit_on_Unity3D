@@ -8,8 +8,8 @@ using System.Collections.Generic;
 public class S_Toolkit : EditorWindow
 {
     
-    string ObjectForLODs ;
-    float ParametrLODs = 0.02f, ParametrValveLODs = 0.02f;
+    private string ObjectForLODs ;
+    private float ParametrLODs = 0.02f, ParametrValveLODs = 0.02f;
     
     [MenuItem("Window/S_toolkit")]
     private static void Init()
