@@ -54,8 +54,6 @@ public class S_Toolkit : EditorWindow
         }
     }
 
-
-   
     private class SetupTXTFile : EditorWindow
     {
         private Object file;
