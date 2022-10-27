@@ -7,7 +7,6 @@ using System.Collections.Generic;
 
 public class S_Toolkit : EditorWindow
 {
-    
     private string ObjectForLODs ;
     private float ParametrLODs = 0.02f, ParametrValveLODs = 0.02f;
     
@@ -53,7 +52,7 @@ public class S_Toolkit : EditorWindow
             GetWindow(typeof(SetupTXTFile), true, "Setup .txt file", true);
         }
     }
-
+    
     private class SetupTXTFile : EditorWindow
     {
         private Object file;
